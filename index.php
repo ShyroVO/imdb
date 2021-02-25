@@ -11,14 +11,14 @@
 <body>
 
     <nav>
-        <div id="headerLogo">LOGO</div>
+        <div id="headerLogo">My WebVideo</div>
         <div id="headerMenu">Menu</div>
         <div id="headerSearch">...</div>
-        <div>MIDBPRO</div>
+        <div>PRO</div>
         <div>|</div>
         <div>Watchlite</div>
         <div>|</div>
-        <div>sing in</div>
+        <div>Sing In</div>
     </nav>
 
     <div id="page">
@@ -30,7 +30,7 @@
                         <div class="emptybar"></div>
                         <div class="filledbar"></div>
                     </div>
-                    <div class="circle">
+                    <div class="text">
                         Text text text text
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                         <div class="emptybar"></div>
                         <div class="filledbar"></div>
                     </div>
-                    <div class="circle">
+                    <div class="text">
                         Text text text text
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         <div class="emptybar"></div>
                         <div class="filledbar"></div>
                     </div>
-                    <div class="circle">
+                    <div class="text">
                         Text text text text
                     </div>
                 </div>
@@ -60,12 +60,12 @@
                         <div class="emptybar"></div>
                         <div class="filledbar"></div>
                     </div>
-                    <div class="circle">
+                    <div class="text">
                         Text text text text
                     </div>
                 </div>
             </div>
-            <div>TOP</div>
+            <div id="ligne1top">TOP:</div>
         </div>
 
 <?php

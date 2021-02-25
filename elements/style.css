@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: fantasy, sans-serif;
     font-size: 62.5%;
     background-color: black;
     color: white;
@@ -16,7 +17,6 @@ body {
 }
 
 nav {
-    font-family: 'Roboto', sans-serif;
     height: 4rem;
     width: 100%;
     background-color: #161616;
@@ -31,7 +31,14 @@ nav {
 
 
 nav div {
-    margin-right: 0.5rem ;
+    margin-right: 0.5rem;
+}
+
+#headerLogo {
+    background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(255,186,0,1) 65%, rgba(255,150,50,1) 100%);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #161616;
 }
 
 #headerSearch {
@@ -43,14 +50,30 @@ nav div {
 }
 
 #ligne1 {
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
     width: 100%;
     display: flex;
+    flex-direction: row;
     height: 25rem;
     border: solid aqua 3px;
 }
 
-@media screen and (max-width: 800px) {
+.container {
+    border: solid red 1px;
+    padding-right: 5rem ;
+    height: 100%;
+    width: 75%;
+    display: flex;
+    font-size: 1rem;
+}
+
+#ligne1top {
+    border: solid greenyellow 1px;
+    width: 25%;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1350px) {
     #page, nav {
         padding-left: 0;
         padding-right: 0;
