@@ -67,6 +67,9 @@
             </div>
             <div id="ligne1top">TOP:</div>
         </div>
+        <div id="ligne2">
+            <div class="avatarListe"><img src="./elements/dinovatar.jpg"></div>
+        </div>
 
 <?php
 include "./elements/footer.php";

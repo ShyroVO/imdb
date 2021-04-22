@@ -59,7 +59,7 @@ nav div {
 }
 
 .container {
-    border: solid red 1px;
+    border: solid red 3px;
     padding-right: 5rem ;
     height: 100%;
     width: 75%;
@@ -68,9 +68,27 @@ nav div {
 }
 
 #ligne1top {
-    border: solid greenyellow 1px;
+    border: solid greenyellow 3px;
     width: 25%;
     font-size: 1rem;
+}
+
+#ligne2 {
+    border: solid palegreen 3px;
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatarListe {
+    height: 14rem;
+    width: 14rem;
+}
+
+.avatarListe img {
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width: 1350px) {
